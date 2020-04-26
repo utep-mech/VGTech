@@ -35,12 +35,6 @@ function LoginPHP($OPT,$debug,$PHPSELF,&$logged,&$msg) { global $DefaultUsersStr
 
   $logged = 0;  $output=''; $msg = 'Unsuccessful login attempt'; 
   $UserDIR=$OPT['HOME']."/DATA/USERS"; 
-  //---------Default Users---------------
-  //$USERSTR='{ 
-     //"vkumar":{"UserID":"vkumar","Password":"$1$p4SqwFEe$q8zATOjXI7nfBwxmlwU6//","LastName":"Kumar","FirstName":"V.","Privilege":"Admin"},
-     //"vkumar1":{"password":"123","name":"V. Kumar","priv":"Admin"} 
-  //}'; 
-  //$USERS=json_decode($USERSTR,true);  $retry="<p/><a href='.'>Retry</a>"; 
   $USERS=json_decode($DefaultUsersStr,true); $DefaultUsers=$USERS; $retry="<p/><a href='.'>Retry</a>"; $AdminLevel='DefaultUsers'; 
   //---------Otherwise Read The Users from a file ---------------
   if($debug) $output .= "<br/>Server:" . json_encode($_POST) . '<br/>';  

@@ -28,7 +28,7 @@ if($logged) {
 }
 $uDATA = "$uHomeDir/$userid"; if(!is_dir($uDATA) && mkdir($uDATA,0777,true)) echo "Dir $uDATA created!"; 
 //------------DB------
-$url= ($urldb=='VGTech')?"mongodb://vkumar:Villa#1066@104.154.229.218:27017/admin": 'mongodb://localhost:27017';
+$url= ($urldb=='VGTech')?"mongodb://test:test#1234@56.155.555.555:27017/admin": 'mongodb://localhost:27017';
 
 //------------------
 require_once("$COMMON/CLASSES/IO.php");
