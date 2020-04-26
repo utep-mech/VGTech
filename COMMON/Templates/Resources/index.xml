@@ -1,0 +1,18 @@
+<html>
+<head>
+</head>
+<body>
+<span id="top"></span>
+<div id="middle"></div>
+<div id="middle2"></div>
+<table>
+  <tr>
+    <td id="tableL"></td>
+    <td id="tableM"></td>
+    <td id="tableR"></td>
+  </tr>
+</table>  
+<span id="bottom"></span>
+</body>
+
+</html>
