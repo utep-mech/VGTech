@@ -10,14 +10,21 @@ DLF is an education software/framework (mostly written in PHP, Javascript, & HTM
 
 Our mantra is leverage evidence based pedagogies & data-driven tools to re-imagine personalized learning and strategically implant learning interventions via leading-edge computing and computational infrastructures.
 
+# Features
+- Opensource, written in PHP/Javascript/HTML5 + C++ (for Engineering Simulations - in progress), use it anyway you'd like
+- Dynamic Generated Questions/Assessment
+- Rapid Assessment Test
+- Intitutive Question Editor (with on-fly function features)
+- Computer Adaptive Test features (still - testing mode)
+
 # How to get started? 
-1) Installation (use git to clone or download as zip)
+- Installation (use git to clone or download as zip)
 git clone https://github.com/utep-mech/VGTech.git 
-2) Install webserver (Apache) & PHP). May want to install mongodb server (still in testing). 
-3) Dependencies/third party libraries used
+- Install webserver (Apache) & PHP). May want to install mongodb server (still in testing). 
+- Dependencies/third party libraries used
 firebase (http://firebase.google.com/), ckeditor (https://ckeditor.com/), MathJAX
-4) edit setup.php in 'public_html' to point the directory to right locations. Give write permission to the data director. The directory 'public_html' should point to the webserver's main public folder.
-5) run the webserver and visit the site.
+- edit setup.php in 'public_html' to point the directory to right locations. Give write permission to the data director. The directory 'public_html' should point to the webserver's main public folder.
+- run the webserver and visit the site.
 
 # To do list
 - add real time database for real time engagement
