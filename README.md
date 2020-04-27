@@ -10,8 +10,22 @@ DLF is an education software/framework (mostly written in PHP, Javascript, & HTM
 
 Our mantra is leverage evidence based pedagogies & data-driven tools to re-imagine personalized learning and strategically implant learning interventions via leading-edge computing and computational infrastructures.
 
-Download 
-git clone 
+# How to get started? 
+1) Installation (use git to clone or download as zip)
+git clone https://github.com/utep-mech/VGTech.git 
+2) Install webserver (Apache) & PHP). May want to install mongodb server (still in testing). 
+3) Dependencies/third party libraries used
+firebase (http://firebase.google.com/), ckeditor (https://ckeditor.com/)
+4) edit setup.php in 'public_html' to point the directory to right locations. Give write permission to the data director. The directory 'public_html' should point to the main webserver public folder.
+5) run the webserver and visit the site.
+
+To do
+- add real time database for real time engagement
+- add sketching tools
+- create intuitive interfaces
+
+
+
 
 
 
